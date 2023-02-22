@@ -1,0 +1,9 @@
+.loadinglazy {
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+.right {
+    width: 79%;
+    margin-left: 19%;   
+    padding: 25px;
+}
+
+/* Media query screen < 900px */
+
+@media only screen and (max-width: 900px) {
+.right {
+    width: 100%;
+    margin-left: 0%;   
+    padding: 25px;
+}
+}

@@ -1,0 +1,129 @@
+.formmoal {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 10006666;
+    background-color: rgba(0, 0, 0, 0.291);
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .4s;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    color: rgb(0, 136, 255);
+    resize: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+}
+
+.at {
+    transform: scale(1);
+}
+
+.formmoal form {
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    overflow-y: scroll;
+    max-width: 550px;
+}
+.formmoal .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.formmoal .head h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.736);
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    margin: 3px 0;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: rgb(42, 41, 41);
+}
+
+.field input {
+    width: 100%;
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex .field {
+    width: 100%;
+    margin: 9px;
+}
+
+.flex .field select {
+    width: 100%;
+    margin-right: 9px;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+    font-size: 13px;
+    border: 1px solid grey;
+    outline: none;
+    padding: 6px;
+}
+
+.field select {
+    width: 100%;
+    margin-right: 9px;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+    font-size: 13px;
+    border: 1px solid grey;
+    outline: none;
+    padding: 6px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+ button {
+     margin: 5px 5px;
+     border: 1px solid rgb(0, 136, 255);
+     padding: 5px 5px;
+     background-color: rgb(79, 169, 83);
+     color: white;
+     border-radius: 5px;
+}

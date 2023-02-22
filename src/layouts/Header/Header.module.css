@@ -1,0 +1,130 @@
+.navs{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-between; 
+}
+
+.left__nav_ch {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.media {
+    display: none;
+}
+
+.right__nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.right__nav span {
+    margin: 0 7px;
+    font-size: 16px;
+    color: rgb(37, 37, 37);
+}
+
+.right__nav p {
+    margin: 0 7px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(87, 87, 87);
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    background-color: red;
+    left: 80%;
+    width: 88px;
+    padding: 7px;
+    transition: .4s;
+    background-color: rgba(87, 87, 87, 0.613);
+}
+
+.dropdown span {
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.dropdown span:hover {
+    background-color: rgba(255, 255, 255, 0.299);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .media {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .left__nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .navs{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 0 10px;
+        flex-direction: column;
+    }
+    
+    .right__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .right__nav span {
+        margin: 0 7px;
+        font-size: 11px;
+        color: rgb(37, 37, 37);
+    }
+    
+    .right__nav p {
+        margin: 0 7px;
+        display: flex;
+        align-items: center;
+        font-size: 11px;
+        color: rgb(87, 87, 87);
+        position: relative;
+    }
+    
+    .dropdown {
+        position: absolute;
+        top: 100%;
+        background-color: red;
+        left: 80%;
+        width: 88px;
+        padding: 7px;
+        transition: .4s;
+        background-color: rgba(87, 87, 87, 0.613);
+    }
+    
+    .dropdown span {
+        color: white;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: bold;
+        display: block;
+    }
+    
+    .dropdown span:hover {
+        background-color: rgba(255, 255, 255, 0.299);
+    }
+}

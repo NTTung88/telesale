@@ -1,0 +1,57 @@
+.form__login {
+    background: linear-gradient(90deg, rgba(97,186,255,1) 40%, #FFFFFF 40%);
+    padding:5%;
+    min-height: 100vh;
+}
+
+h5{
+    font-weight:bold;
+    color: rgb(252, 54, 54);
+}
+
+.logindiv{
+    background-color:#00000000;
+    box-shadow: 5px 10px 50px #888888;
+    margin:auto;
+    padding:15px;
+    width:60%;
+    height:90%;
+}
+
+.loginform{
+    width:50%;
+    height:70%;
+    position:absolute;
+    right:10%;
+    bottom:5%;
+}
+
+.loginform h6 {
+    color: rgba(97,186,255,1);
+}
+
+.loginh{
+    text-align:center;
+}
+
+.loginbtn{
+    background-color:rgba(97,186,255,1);
+    border-color:#18e5b2;
+    color:rgb(255, 255, 255);
+    width:100%;
+    font-weight:bold;
+}
+
+.info{
+    margin-top:10%;
+    width:30%;
+}
+
+.info h5{
+    text-align:center;
+}
+
+.info h6{
+    text-align:center;
+    color: white;
+}

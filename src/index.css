@@ -1,0 +1,76 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  /* Firefox */
+  input::-webkit-inner-spin-button{
+    -moz-appearance: none;
+  }
+
+button, input {
+    all: unset;
+}
+
+button:disabled {
+    background-color: grey;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    margin: 40px auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(73, 163, 241);
+    color: rgb(73, 163, 241);
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: rgb(73, 163, 241);
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: rgb(73, 163, 241);
+  }
+  
+  .paginationDisabled a {
+    color: white;
+    background-color: rgb(73, 163, 241);
+  }
+
