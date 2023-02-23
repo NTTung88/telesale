@@ -1,8 +1,9 @@
 //Style
-import TableCampaign from "../../../../components/TableManage/TableCampaign";
 import styles from "./ManageCampaign.module.css";
 // Icons
 import { AiFillFileExcel } from "react-icons/ai";
+//Component
+import TableCampaign from "../../../../components/TableManage/TableCampaign";
 
 function SpAdminCampaign() {
   return (

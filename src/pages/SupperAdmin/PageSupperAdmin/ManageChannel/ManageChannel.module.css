@@ -1,0 +1,93 @@
+.box__content {
+  background-color: white;
+  border-radius: 11px;
+  margin-top: 65px;
+  padding: 65px 15px 15px 15px;
+}
+
+.head__box {
+  transform: translateY(-90px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 14px;
+  border-radius: 10px;
+  background: linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232));
+}
+
+.head__box h3 {
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+
+.head__box .buttons {
+  display: flex;
+}
+
+.btn {
+  margin: 0 10px;
+  padding: 9px 16px;
+  outline: none;
+  border: none;
+  border: 5px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.btn__black {
+  background-color: rgb(25, 25, 25);
+}
+.content {
+  margin-top: -70px;
+}
+
+/* media screen < 900px */
+@media only screen and (max-width: 900px) {
+  .content .selects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .head__box .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .head__box .buttons button {
+    margin: 10px 0;
+    font-size: 12px;
+  }
+
+  .content .selects div {
+    width: 65%;
+  }
+
+  .select__btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .content .selects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .content .selects div {
+    width: 65%;
+  }
+
+  .select__btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}

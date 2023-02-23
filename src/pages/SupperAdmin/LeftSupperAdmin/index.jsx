@@ -81,9 +81,9 @@ function LeftSupperAdmin({ active, setActive }) {
       <div className={styles.links}>
         <div
           style={{ cursor: "pointer" }}
-          onClick={() => setActive("ManageCustomer")}
+          onClick={() => setActive("manageCustomer")}
           className={`${styles.link} ${
-            active == "ManageCustomer" && `${styles.active}`
+            active == "manageCustomer" && `${styles.active}`
           }`}
         >
           <AiFillAppstore
