@@ -103,7 +103,7 @@
 @media only screen and (max-width: 900px) {
   .head_new {
     display: grid;
-    grid-template-columns: repeat(8, minmax(70px, 12%));
+    grid-template-columns: repeat(5, minmax(70px, 12%));
     align-items: center;
     width: 100%;
     margin-top: 30px;
@@ -124,7 +124,7 @@
 
   .content_new {
     display: grid;
-    grid-template-columns: repeat(8, minmax(70px, 12%));
+    grid-template-columns: repeat(5, minmax(70px, 12%));
     width: 100%;
     margin: 15px 0;
     align-items: center;
@@ -177,7 +177,7 @@
 
   .head_new {
     display: grid;
-    grid-template-columns: repeat(8, minmax(60px, 12%));
+    grid-template-columns: repeat(5, minmax(60px, 12%));
     align-items: center;
     width: 100%;
     margin-top: 30px;
@@ -198,7 +198,7 @@
 
   .content_new {
     display: grid;
-    grid-template-columns: repeat(8, minmax(60px, 12%));
+    grid-template-columns: repeat(5, minmax(60px, 12%));
     width: 100%;
     margin: 15px 0;
     align-items: center;
